@@ -1,0 +1,117 @@
+.image_container {
+    position: relative; /* Enable positioning for child elements */
+}
+.text_overlay {
+    position: absolute; /* Position the text overlay on top of the image */
+    top: 20%; /* Center vertically */
+    left: 10%;
+    padding: 20px;
+    text-align:start;
+}
+.text_overlay_title{
+    color: #080808;
+    text-transform:uppercase;
+    line-height: 65px;
+}
+.text_overlay_p{
+    color: #282828;
+    margin-top: 12px;
+}
+.text_overlay_btn{
+    background-color: #FBC31C;
+    color: #fdfdfd;
+    height: 35px;
+    width: 120px;
+    margin-top:35px;
+    border: none;
+    border-radius: 12px;
+    margin-right: 55px;
+}
+
+/* --------------------- */
+
+.service-content h4
+{
+	font-size: 18px;
+	color: #282828;
+	font-weight: bold;
+}
+.service-content p
+{
+	font-size: 16px;
+	color: #666;
+    line-height: 20px;
+}
+.service-item
+{
+	margin-top: 140px;
+}
+
+/* --------------------- */
+
+.categories_item{
+    box-shadow: 5px 5px 10px #f3f3f3;
+}
+.categories_item img{
+    padding: 45px;
+}
+.categories_item p{
+    color: #080808;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.categories_title{
+    color: #080808;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+/* --------------------- */
+
+.marquee marquee
+{
+	width: 100%;
+	height: 70px;
+	color: #fdfdfd;
+	background-color: #FBC31C;
+	line-height: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* --------------------- */
+
+.feature_pr_title{
+    color: #080808;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+/* --------------------- */
+
+.banner_btn{
+    background-color: #080808;
+    color: #FBC31C;
+    height: 35px;
+    width: 120px;
+    margin-top:35px;
+    border: none;
+    border-radius: 12px;
+    margin-right: 55px;
+}
+.bg_banner{
+    background-color: #FBC31C;
+}
+.banner_title{
+    color: #080808;
+    padding-top: 25%;
+}
+.banner_para{
+    color: #282828;
+    margin-top: 20px;
+}
+
+/* --------------------- */
+
