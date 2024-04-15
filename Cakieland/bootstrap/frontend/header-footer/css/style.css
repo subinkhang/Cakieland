@@ -12,7 +12,7 @@ a
 }
 @font-face {
     font-family: VN;
-    src: url('fonts/BeVietnamPro-Regular.ttf');
+    src: url('../fonts/BeVietnamPro-Regular.ttf');
 }
 body, button, input{
     font-family: VN;
@@ -21,32 +21,32 @@ body, button, input{
 .text_h1{
     font-family: VN;
     font-size: 55px;
-    font-weight: 600
+    font-weight: bold;
 }
 .text_h2{
     font-family: VN;
     font-size: 32px;
-    font-weight: 600
+    font-weight: bold
 }
 .text_h3{
     font-family: VN;
     font-size: 26px;
-    font-weight: 600
+    font-weight: bold
 }
 .text_h4{
     font-family: VN;
     font-size: 22px;
-    font-weight: 600
+    font-weight: bold
 }
 .text_h5{
     font-family: VN;
     font-size: 18px;
-    font-weight: 600
+    font-weight: bold
 }
 .text_h6{
     font-family: VN;
     font-size: 16px;
-    font-weight: 600
+    font-weight: bold
 }
 .text_p1{
     font-family: VN;
