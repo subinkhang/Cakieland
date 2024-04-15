@@ -33,6 +33,7 @@ div .formsignup{
     border: #f3f3f3;
     text-indent: 20px;
     width: 300px;
+    margin-top: 30px;
 }
 .box2signup{
     margin-top: 30px;
@@ -60,10 +61,21 @@ div .formsignup{
     border-radius: 30px;
     margin-top: 30px;
 }
-.linksi2 p{
+p{
     color: #666;
-    text-decoration: underline;
+    display: inline;
 }
 div .linksi{
     margin-top: 30px;
+}
+.p1{
+    text-decoration: underline;
+}
+.p1:hover{
+    font-weight: bold;
+    font-style: italic;
+}
+.buttonsignup:hover{
+    background-color: #080808;
+    color: #FBC31C;
 }
