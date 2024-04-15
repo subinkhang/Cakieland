@@ -219,3 +219,34 @@ p{
     width: 50%;
 } */
 
+.pr-list-sidebar ul
+{
+	padding: 0;
+	margin-bottom: 0;
+}
+.pr-list-sidebar ul li a
+{
+	font-size: 16px;
+	color: #666;
+	line-height: 40px;
+	border-bottom: 1px dashed #f3f3f3;
+	display: block;
+}
+.pr-list-sidebar ul li:nth-last-child(1) a
+{
+	border: none;
+}
+.pr-list-sidebar
+{
+	border: 1px solid #f3f3f3;
+	padding: 0 16px;
+	margin-bottom: 24px;
+	padding-top: 16px;
+    height: 310px;
+    width: 300px;
+    margin-right: 25px;
+}
+.pr-list-sidebar .line
+{
+	margin-bottom: 0;
+}
