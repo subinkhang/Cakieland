@@ -169,34 +169,53 @@ body, button, input{
     src: url('fonts/BeVietnamPro-Regular.ttf');
 }
 
-form{
+form.boxac{
     text-align: center;
-    width: 636px;
+    width: 570px;
     height: 560px;
     display: grid;
     place-content: center;
 }
-.box_account{
-    text-align: center;
+.box_account h1{
+    margin-top: 30px;
+    font-weight: bold;
 }
 .boxac{
-    height: 30px;
+    height: 50px;
     background-color: #f3f3f3;
     border-radius: 100px;
     border: #f3f3f3;
-    text-indent: 20px;
-    width: 636px;
+    width: 570px;
 }
 .inside{
-    height: 30px;
-    width: 636px;
+    height: 50px;
+    width: 550px;
     background-color: #f3f3f3;
     border-radius: 100px;
     border: #f3f3f3;
-    text-indent: 20px;
 }
 p{
-
+    margin-top: 20px;
+    height: 15px;
+    font-weight: bold;
+}
+.button_ac1{
+    width: 130px;
+    height: 35px;
+    background-color: #f3f3f3;
+    border: #f3f3f3;
+    border-radius: 30px;
+    margin-top: 30px;
+    color: #080808;
+}
+.button_ac2{
+    width: 130px;
+    height: 35px;
+    background-color: #FBC31C;
+    border: #FBC31C;
+    border-radius: 30px;
+    margin-top: 30px;
+    color: #080808;
 }
 .circle {
     background-color: #666666;
@@ -204,8 +223,15 @@ p{
     border-radius: 50%;
     height: 200px;
     width: 200px;
-  }
-
+}
+.button_ac1:hover{
+    background-color: #080808;
+    color: #f3f3f3;
+}
+.button_ac2:hover{
+    background-color: #080808;
+    color: #FBC31C;
+}
 /* #aside
 {
 	z-index: 30px;
