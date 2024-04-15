@@ -161,6 +161,50 @@ body, button, input{
 }
 
 /* ACCOUNT */
+*{
+    outline: none;
+} 
+@font-face {
+    font-family: VN;
+    src: url('fonts/BeVietnamPro-Regular.ttf');
+}
+
+form{
+    text-align: center;
+    width: 636px;
+    height: 560px;
+    display: grid;
+    place-content: center;
+}
+.box_account{
+    text-align: center;
+}
+.boxac{
+    height: 30px;
+    background-color: #f3f3f3;
+    border-radius: 100px;
+    border: #f3f3f3;
+    text-indent: 20px;
+    width: 636px;
+}
+.inside{
+    height: 30px;
+    width: 636px;
+    background-color: #f3f3f3;
+    border-radius: 100px;
+    border: #f3f3f3;
+    text-indent: 20px;
+}
+p{
+
+}
+.circle {
+    background-color: #666666;
+    border: 1px solid #666666;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+  }
 
 /* #aside
 {
