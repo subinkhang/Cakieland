@@ -14,7 +14,7 @@
     <div class="container nav_top">
         <div class="row">
             <div class="col-2 logo">
-                <img src="{{('public/frontend/imagesblic/frontend/images/logo - temp.png')}}" alt=""class="w-100">
+                <img src="{{('public/frontend/images/logo - temp.png')}}" alt=""class="w-100">
             </div>
             <div class="col-2"></div>
             <div class="col-4 search">
