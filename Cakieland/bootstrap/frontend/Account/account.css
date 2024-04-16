@@ -112,6 +112,7 @@ form.boxac{
     font-weight: bold;
 }
 .boxac{
+    margin-top: 15px;
     height: 50px;
     background-color: #f3f3f3;
     border-radius: 100px;
@@ -149,6 +150,7 @@ form.boxac{
     color: #080808;
 }
 .circle {
+    margin-top: 30px;
     background-color: #666666;
     border: 1px solid #666666;
     border-radius: 50%;
@@ -183,6 +185,7 @@ form.boxac{
 }
 .pr-list-sidebar ul li a
 {
+    margin-top: 20px;
 	font-size: 16px;
 	color: #666;
 	line-height: 40px;
@@ -193,8 +196,17 @@ form.boxac{
 {
 	border: none;
 }
+.pr-list-sidebar ul li:nth-child(1) a
+{
+	color: #FBC31C;
+}
+.pr-list-sidebar li:hover
+{
+	font-style: italic;
+}
 .pr-list-sidebar
 {
+    margin-top: 30px;
 	border: 1px solid #f3f3f3;
 	padding: 0 16px;
 	margin-bottom: 24px;
@@ -205,4 +217,7 @@ form.boxac{
 .pr-list-sidebar .line
 {
 	margin-bottom: 0;
+}.footer-title{
+    color: #080808;
+    font-weight: bold;
 }
