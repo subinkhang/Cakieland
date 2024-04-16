@@ -13,42 +13,26 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function() {
-    return view('homepage');
-});
+Route::get('/', 'App\Http\Controllers\HomepageController@index');
 
-Route::get('/product-list', function() {
-    return view('pages/productList');
-});
+Route::get('/product-list', 'App\Http\Controllers\ProductListController@index');
 
-Route::get('/product-detail', function() {
-    return view('pages/productDetail');
-});
+Route::get('/product-detail', 'App\Http\Controllers\ProductDetailController@index');
 
-Route::get('/account', function() {
-    return view('pages/account');
-});
+Route::get('/account', 'App\Http\Controllers\AccountController@index');
 
-Route::get('/cart', function() {
-    return view('pages/cart');
-});
+Route::get('/cart', 'App\Http\Controllers\CartController@index');
 
-Route::get('/checkout', function() {
-    return view('pages/checkout');
-});
+Route::get('/checkout', 'App\Http\Controllers\CheckoutController@index');
 
-Route::get('/error-page', function() {
-    return view('pages/errorPage');
-});
+Route::get('/error-page', 'App\Http\Controllers\ErrorPageController@index');
 
-Route::get('/signup', function() {
-    return view('pages/signup');
-});
+Route::get('/signup', 'App\Http\Controllers\SignupController@index');
 
-Route::get('/login', function() {
-    return view('pages/login');
-});
+Route::get('/login', 'App\Http\Controllers\LoginController@index');
 
-Route::get('/about-us', function() {
-    return view('pages/aboutUs');
+Route::get('/about-us', 'App\Http\Controllers\AboutUsController@index');
+
+Route::fallback(function () {
+    return redirect()->action('App\Http\Controllers\ErrorPageController@index');
 });
