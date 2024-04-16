@@ -13,6 +13,42 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/{vue_capture?}', function() {
+Route::get('/', function() {
     return view('homepage');
-})->where('vue_capture', '[\/\w\.-]*');
+});
+
+Route::get('/product-list', function() {
+    return view('pages/productList');
+});
+
+Route::get('/product-detail', function() {
+    return view('pages/productDetail');
+});
+
+Route::get('/account', function() {
+    return view('pages/account');
+});
+
+Route::get('/cart', function() {
+    return view('pages/cart');
+});
+
+Route::get('/checkout', function() {
+    return view('pages/checkout');
+});
+
+Route::get('/error-page', function() {
+    return view('pages/errorPage');
+});
+
+Route::get('/signup', function() {
+    return view('pages/signup');
+});
+
+Route::get('/login', function() {
+    return view('pages/login');
+});
+
+Route::get('/about-us', function() {
+    return view('pages/aboutUs');
+});

@@ -1,5 +1,3 @@
-@extends('homepage')
-@sections('account')
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -208,4 +206,3 @@
 
 </body>
 </html>
-@endsection

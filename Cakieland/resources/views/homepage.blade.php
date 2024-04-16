@@ -13,7 +13,9 @@
     <div class="container nav_top">
         <div class="row">
             <div class="col-2 logo">
-                <img src="{{('public/frontend/images/logo - temp.png')}}" alt=""class="w-100">
+                <a href="{{URL::to('/')}}">
+                    <img src="{{('public/frontend/images/logo - temp.png')}}" alt=""class="w-100">
+                </a>
             </div>
             <div class="col-2"></div>
             <div class="col-4 search">
@@ -29,20 +31,24 @@
             <div class="col-4 pages">
                 <ul class="d-flex justify-content-end">
                     <li class="page_item ">
-                        <div><a href="#">Home</a></div>
+                        <div><a href="{{URL::to('/')}}">Home</a></div>
                     </li>
                     <li class="page_item ">
-                        <div><a href="#">Product</a></div>
+                        <div><a href="{{URL::to('/product-list')}}">Product</a></div>
                     </li>
                     <li class="page_item ">
-                        <div><a href="#">Forum</a></div>
+                        <div><a href="{{URL::to('/error-page')}}">Forum</a></div>
                     </li>
                     <li class="cart_item">
-                        <i class="fa-solid fa-cart-shopping"></i>
+                        <a href="{{URL::to('/cart')}}">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
                         <div><p>2</p></div>
                     </li>
                     <li class="cart_item">
-                        <i class="fa-solid fa-user"></i>
+                        <a href="{{URL::to('/account')}}">
+                            <i class="fa-solid fa-user"></i>
+                        </a>
                         <div><p>2</p></div>
                     </li>
                 </ul>
@@ -302,9 +308,9 @@
 				<div class="col-2 acc">
 					<h3 class="footer-title">Account</h3>
 					<ul>
-						<li><a href="#">Profile</a></li>
-						<li><a href="#">My orders</a></li>
-						<li><a href="#">Shipping</a></li>
+						<li><a href="{{URL::to('/account')}}">Profile</a></li>
+						<li><a href="{{URL::to('/cart')}}">My orders</a></li>
+						<li><a href="{{URL::to('/error-page')}}">Shipping</a></li>
 					</ul>
 				</div>
 				<div class="col-2 policies">
@@ -320,7 +326,7 @@
 				<div class="col-2 services">
 					<h3 class="footer-title">Policies</h3>
 					<ul>
-						<li><a href="#">About</a></li>
+						<li><a href="{{URL::to('/about-us')}}">About</a></li>
 						<li><a href="#">Contact</a></li>
 						<li><a href="#">Privacy policy</a></li>
 						<li><a href="#">Return policy</a></li>
