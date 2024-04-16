@@ -217,7 +217,8 @@ form.boxac{
 .pr-list-sidebar .line
 {
 	margin-bottom: 0;
-}.footer-title{
-    color: #080808;
+}
+.my_account h3{
     font-weight: bold;
+    color: #080808;
 }
