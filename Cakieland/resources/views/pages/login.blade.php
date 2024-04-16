@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOG_IN</title>
-    <link rel="stylesheet" href="login.css">
-    <link rel="stylesheet" href="../header-footer/css/bootstrap.css">
-    <link rel="stylesheet" href="../header-footer/css/all.min.css">
-    <link rel="stylesheet" href="../header-footer/css/style.css">
+    <link rel="stylesheet" href="{{('public/frontend/css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{('public/frontend/css/all.min.css')}}">
+    <link rel="stylesheet" href="{{('public/frontend/css/style.css')}}">
+    <link rel="stylesheet" href="{{('public/frontend/css/login.css')}}">
 </head>
 <body>
     <div class="container">
@@ -65,7 +65,7 @@
                 </form>
             </div>
             <div class="col-6 img_signin">
-                <img src="../header-footer/img/sign-in-up/c641ce7483c4728b418ba7d5d93a9ddc.jpg" alt="" class="w-100">
+                <img src="{{('public/frontend/images/sign-in-up/c641ce7483c4728b418ba7d5d93a9ddc.jpg')}}" alt="" class="w-100">
             </div>
         </div>
     </div>

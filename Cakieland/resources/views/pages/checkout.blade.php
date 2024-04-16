@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkout</title>
-    <link rel="stylesheet" href="../header-footer/css/all.min.css">
-    <link rel="stylesheet" href="../header-footer/css/bootstrap.css">
-    <link rel="stylesheet" href="../header-footer/css/style.css">
-    <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="{{('public/frontend/css/all.min.cs')}}s">
+    <link rel="stylesheet" href="{{('public/frontend/css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{('public/frontend/css/style.css')}}">
+    <link rel="stylesheet" href="{{('public/frontend/css/checkout.css')}}">
 </head>
 <body>
     <!-----------HEADER-------------->
@@ -32,7 +32,7 @@
                 <div class="container">
                 <div class="row pr-list-co">
                     <div class="col-3">
-                        <img src="../header-footer/img/checkout-cart/cay-lan-bot-trung-go-xa-cu-tu-nhien-ichigo-ig-5550-201903061343233383.jpg"  class="img-fluid">
+                        <img src="{{('public/frontend/images/checkout-cart/cay-lan-bot-trung-go-xa-cu-tu-nhien-ichigo-ig-5550-201903061343233383.jpg')}}"  class="img-fluid">
                     </div>
                     <div class="col-9 row">
                     <h5><b>lăn bột hjghvhhgfhgvhvjvjvjvjvjgc</b></h5>
@@ -43,7 +43,7 @@
                 </div>
                 <div class="row pr-list-co">
                     <div class="col-3">
-                        <img src="C:\Users\LENOVO\Downloads\cay-lan-bot-trung-go-xa-cu-tu-nhien-ichigo-ig-5550-201903061343233383.jpg"  class="img-fluid">
+                        <img src="{{('')}}"  class="img-fluid">
                     </div>
                     <div class="col-9 row">
                     <h5><b>lăn bột hjghvhhgfhgvhvjvjvjvjvjgc</b></h5>
@@ -175,7 +175,7 @@
 				</div>
 				<div class="col-3 bocongthuong">
 					<div class="d-flex">
-						<img src="../header-footer/img/bocongthuong.png" alt="" class="w-100">
+						<img src="{{('public/frontend/images/bocongthuong.png')}}" alt="" class="w-100">
 					</div>
 				</div>
 			</div>

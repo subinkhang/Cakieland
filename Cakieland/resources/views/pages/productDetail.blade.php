@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../header-footer/css/all.min.css">
-    <link rel="stylesheet" href="../header-footer/css/bootstrap.css">
-    <link rel="stylesheet" href="../header-footer/css/style.css">
-    <link rel="stylesheet" href="../ProductDetail/productDetail.css">
+    <title>Product Detail</title>
+    <link rel="stylesheet" href="{{('public/frontend/css/all.min.css')}}">
+    <link rel="stylesheet" href="{{('public/frontend/css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{('public/frontend/css/style.css')}}">
+    <link rel="stylesheet" href="{{('public/frontend/css/productDetail.css')}}">
 </head>
 <body>
     <!-- HEADER -->
     <div class="container nav_top">
         <div class="row">
             <div class="col-2 logo">
-                <img src="../header-footer/img/logo - temp.png" alt=""class="w-100">
+                <img src="{{('public/frontend/imagesblic/frontend/images/logo - temp.png')}}" alt=""class="w-100">
             </div>
             <div class="col-2"></div>
             <div class="col-4 search">
@@ -83,13 +83,13 @@
 				</div>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="../header-footer/img/pr-detail/máy đánh trứng 1.webp" alt="" class="w-100 img-fluid">
+						<img src="{{('public/frontend/images/pr-detail/máy đánh trứng 1.web')}}p" alt="" class="w-100 img-fluid">
 					</div>
 					<div class="carousel-item">
-						<img src="../header-footer/img/pr-detail/máy dánh trứng 2.webp" alt="" class="img-fluid w-100">
+						<img src="{{('public/frontend/images/pr-detail/máy dánh trứng 2.webp')}}" alt="" class="img-fluid w-100">
 					</div>
 					<div class="carousel-item">
-						<img src="../header-footer/img/pr-detail/máy đánh trứng 3.webp" alt="" class="img-fluid w-100">
+						<img src="{{('public/frontend/images/pr-detail/máy đánh trứng 3.webp')}}" alt="" class="img-fluid w-100">
 					</div>
 				</div>
 			</div>
@@ -214,7 +214,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-6 col-12">
 				<div class="pr-i3">
-					<img src="../header-footer/img/pr-detail/bình lắc.webp" alt="" class="w-100 img-fluid">
+					<img src="{{('public/frontend/images/pr-detail/bình lắc.webp')}}" alt="" class="w-100 img-fluid">
 					<a href="#" class="pr-i3-name">High quality mixing shaker</a>
 					<ul class="pr-i3-rating d-flex">
 						<li><i class="fa-solid fa-star"></i></li>
@@ -232,7 +232,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-6 col-12">
 				<div class="pr-i3">
-					<img src="../header-footer/img/pr-detail/muỗng múc đá 3.jpg" alt="" class="w-100 img-fluid">
+					<img src="{{('public/frontend/images/pr-detail/muỗng múc đá 3.jpg')}}" alt="" class="w-100 img-fluid">
 					<a href="#" class="pr-i3-name">Stainless Steel Ice Scoop</a>
 					<ul class="pr-i3-rating d-flex">
 						<li><i class="fa-solid fa-star"></i></li>
@@ -250,7 +250,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-6 col-12">
 				<div class="pr-i3">
-					<img src="../header-footer/img/pr-detail/máy tạo bọt 1.jpg" alt="" class="w-100 img-fluid">
+					<img src="{{('public/frontend/images/pr-detail/máy tạo bọt 1.jpg')}}" alt="" class="w-100 img-fluid">
 					<a href="#" class="pr-i3-name">Multi-function coffee foam maker</a>
 					<ul class="pr-i3-rating d-flex">
 						<li><i class="fa-solid fa-star"></i></li>
@@ -268,7 +268,7 @@
 			</div>
 			<div class="col-lg-3 col-md-6 col-sm-6 col-12">
 				<div class="pr-i3">
-					<img src="../header-footer/img/pr-detail/rây 1.webp" alt="" class="w-100 img-fluid">
+					<img src="{{('public/frontend/images/pr-detail/rây 1.webp')}}" alt="" class="w-100 img-fluid">
 					<a href="#" class="pr-i3-name">Stainless steel tea strainer</a>
 					<ul class="pr-i3-rating d-flex">
 						<li><i class="fa-solid fa-star"></i></li>
@@ -345,7 +345,7 @@
 				</div>
 				<div class="col-3 bocongthuong">
 					<div class="d-flex">
-						<img src="../header-footer/img/bocongthuong.png" alt="" class="w-100">
+						<img src="{{('public/frontend/images/bocongthuong.png')}}" alt="" class="w-100">
 					</div>
 				</div>
 			</div>
