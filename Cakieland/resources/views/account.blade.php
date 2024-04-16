@@ -1,20 +1,22 @@
+@extends('homepage')
+@sections('account')
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My profile</title>
-    <link rel="stylesheet" href="../header-footer/css/all.min.css">
-    <link rel="stylesheet" href="../header-footer/css/bootstrap.css">
-    <link rel="stylesheet" href="../header-footer/css/style.css">
-    <link rel="stylesheet" href="../Account/account.css">
+    <link rel="stylesheet" href="{{('public/frontend/css/all.min.css')}}">
+    <link rel="stylesheet" href="{{('public/frontend/css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{('public/frontend/css/style.css')}}">
+    <link rel="stylesheet" href="{{('public/frontend/css/account.css')}}">
 </head>
 <body>
     <!-- HEADER -->
     <div class="container nav_top">
         <div class="row">
             <div class="col-2 logo">
-                <img src="../header-footer/img/logo - temp.png" alt=""class="w-100">
+                <img src="{{('public/frontend/images/logo - temp.png')}}" alt=""class="w-100">
             </div>
             <div class="col-2"></div>
             <div class="col-4"></div>
@@ -195,7 +197,7 @@
 				</div>
 				<div class="col-3 bocongthuong">
 					<div class="d-flex">
-						<img src="../header-footer/img/bocongthuong.png" alt="" class="w-100">
+						<img src="{{('public/frontend/images/bocongthuong.png')}}" alt="" class="w-100">
 					</div>
 				</div>
 			</div>
@@ -206,3 +208,4 @@
 
 </body>
 </html>
+@endsection

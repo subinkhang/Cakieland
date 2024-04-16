@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../header-footer/css/all.min.css">
-    <link rel="stylesheet" href="../header-footer/css/bootstrap.css">
-    <link rel="stylesheet" href="../header-footer/css/style.css">
-    <link rel="stylesheet" href="../Cart/cart.css">
+    <title>Cart</title>
+    <link rel="stylesheet" href="{{('public/frontend/css/all.min.css')}}">
+    <link rel="stylesheet" href="{{('public/frontend/css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{('public/frontend/css/style.css')}}">
+    <link rel="stylesheet" href="{{('public/frontend/css/cart.css')}}">
 </head>
 <body>
 <!----------HEADER-------->
@@ -46,7 +46,7 @@
                         <td class="col-8">
                             <div class="row pr-list-co">
                                 <div class="col-3">
-                                    <img src="../header-footer/img/checkout-cart/cay-lan-bot-trung-go-xa-cu-tu-nhien-ichigo-ig-5550-201903061343233383.jpg"  class="img-fluid">
+                                    <img src="{{('public/frontend/images/checkout-cart/cay-lan-bot-trung-go-xa-cu-tu-nhien-ichigo-ig-5550-201903061343233383.jpg')}}"  class="img-fluid">
                                 </div>
                                 <div class="col-9 row">
                                 <h6>lăn bột hjghvhhgfhgvhvjvjvjvjvjgc</h6>
@@ -74,7 +74,7 @@
                         <td class="col-8">
                             <div class="row pr-list-co">
                                 <div class="col-3">
-                                    <img src="../header-footer/img/checkout-cart/cay-lan-bot-trung-go-xa-cu-tu-nhien-ichigo-ig-5550-201903061343233383.jpg"  class="img-fluid">
+                                    <img src="{{('public/frontend/images/checkout-cart/cay-lan-bot-trung-go-xa-cu-tu-nhien-ichigo-ig-5550-201903061343233383.jpg')}}"  class="img-fluid">
                                 </div>
                                 <div class="col-9 row">
                                 <h6>lăn bột hjghvhhgfhgvhvjvjvjvjvjgc</h6>
@@ -205,7 +205,7 @@
 				</div>
 				<div class="col-3 bocongthuong">
 					<div class="d-flex">
-						<img src="../header-footer/img/bocongthuong.png" alt="" class="w-100">
+						<img src="{{('public/frontend/images/bocongthuong.png')}}" alt="" class="w-100">
 					</div>
 				</div>
 			</div>

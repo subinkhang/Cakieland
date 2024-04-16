@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIGN_UP</title>
-    <link rel="stylesheet" href="signup.css">
-    <link rel="stylesheet" href="../header-footer/css/bootstrap.css">
-    <link rel="stylesheet" href="../header-footer/css/all.min.css">
-    <link rel="stylesheet" href="../header-footer/css/style.css">
+    <link rel="stylesheet" href="{{('public/frontend/css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{('public/frontend/css/all.min.css')}}">
+    <link rel="stylesheet" href="{{('public/frontend/css/style.css')}}">
+    <link rel="stylesheet" href="{{('public/frontend/css/signup.css')}}">
 </head>
 <body>
     <div class="container">
@@ -61,7 +61,7 @@
                 </form>
             </div>
             <div class="col-6 img_signup">
-                <img src="../header-footer/img/sign-in-up/a85174c75e3e6730400cd94d739dbfb6.jpg" alt="" class="w-100">
+                <img src="{{('public/frontend/images/sign-in-up/a85174c75e3e6730400cd94d739dbfb6.jpg')}}" alt="" class="w-100">
             </div>
         </div>
     </div>

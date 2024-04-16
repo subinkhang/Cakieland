@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../header-footer/css/all.min.css">
-    <link rel="stylesheet" href="../header-footer/css/bootstrap.css">
-    <link rel="stylesheet" href="../header-footer/css/style.css">
-    <link rel="stylesheet" href="homepage.css">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="{{('public/frontend/css/all.min.css')}}">
+    <link rel="stylesheet" href="{{('public/frontend/css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{('public/frontend/css/style.css')}}">
+    <link rel="stylesheet" href="{{('public/frontend/css/homepage.css')}}">
 </head>
 <body>
     <div class="container nav_top">
         <div class="row">
             <div class="col-2 logo">
-                <img src="../header-footer/img/logo - temp.png" alt=""class="w-100">
+                <img src="{{('public/frontend/images/logo - temp.png')}}" alt=""class="w-100">
             </div>
             <div class="col-2"></div>
             <div class="col-4 search">
@@ -53,7 +53,7 @@
     <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item image_container active">
-            <img src="../header-footer/img/homepage/banner 1.png" class="d-block w-100" alt="...">
+            <img src="{{('public/frontend/images/homepage/banner 1.png')}}" class="d-block w-100" alt="...">
             <div class="text_overlay">
                 <div class="container">
                     <div class="row">
@@ -71,7 +71,7 @@
           </div>
           
           <div class="carousel-item">
-            <img src="../header-footer/img/homepage/banner (2) 1.png" class="d-block w-100" alt="...">
+            <img src="{{('public/frontend/images/homepage/banner (2) 1.png')}}" class="d-block w-100" alt="...">
             <div class="text_overlay">
                 <div class="container">
                     <div class="row">
@@ -103,7 +103,7 @@
 			<div class="col-3 service-item">
 				<div class="row">
 					<div class="col-3 service-icon">
-						<img src="../header-footer/img/homepage/credit-card 1.png" alt="" class="img-fluid">
+						<img src="{{('public/frontend/images/homepage/credit-card 1.png')}}" alt="" class="img-fluid">
 					</div>
 					<div class="col-9 service-content">
 						<h4>PAYMENT & DELIVERY</h4>
@@ -114,7 +114,7 @@
             <div class="col-3 service-item">
 				<div class="row">
 					<div class="col-3 service-icon">
-						<img src="../header-footer/img/homepage/credit-card 1 (1).png" alt="" class="img-fluid">
+						<img src="{{('public/frontend/images/homepage/credit-card 1 (1).png')}}" alt="" class="img-fluid">
 					</div>
 					<div class="col-9 service-content">
 						<h4>RETURN PRODUCT</h4>
@@ -125,7 +125,7 @@
             <div class="col-3 service-item">
 				<div class="row">
 					<div class="col-3 service-icon">
-						<img src="../header-footer/img/homepage/credit-card 1 (2).png" alt="" class="img-fluid">
+						<img src="{{('public/frontend/images/homepage/credit-card 1 (2).png')}}" alt="" class="img-fluid">
 					</div>
 					<div class="col-9 service-content">
 						<h4>MEMBER DISCOUNT</h4>
@@ -136,7 +136,7 @@
             <div class="col-3 service-item">
 				<div class="row">
 					<div class="col-3 service-icon">
-						<img src="../header-footer/img/homepage/credit-card 1 (3).png" alt="" class="img-fluid">
+						<img src="{{('public/frontend/images/homepage/credit-card 1 (3).png')}}" alt="" class="img-fluid">
 					</div>
 					<div class="col-9 service-content">
 						<h4>QUALITY SUPPORT</h4>
@@ -152,37 +152,37 @@
         <div class="row">
             <div class="col-2">
                 <div class="categories_item">
-                    <img src="../header-footer/img/homepage/image 25.png" alt="" class="img-fluid">
+                    <img src="{{('public/frontend/images/homepage/image 25.png')}}" alt="" class="img-fluid">
                     <p class="h6">DRY INGREDIENTS</p>
                 </div>
             </div>
             <div class="col-2">
                 <div class="categories_item">
-                    <img src="../header-footer/img/homepage/image 25 (1).png" alt="" class="img-fluid">
+                    <img src="{{('public/frontend/images/homepage/image 25 (1).png')}}" alt="" class="img-fluid">
                     <p class="h6">wet ingredients</p>
                 </div>
             </div>
             <div class="col-2">
                 <div class="categories_item">
-                    <img src="../header-footer/img/homepage/image 25 (2).png" alt="" class="img-fluid">
+                    <img src="{{('public/frontend/images/homepage/image 25 (2).png')}}" alt="" class="img-fluid">
                     <p class="h6">baking tools</p>
                 </div>
             </div>
             <div class="col-2">
                 <div class="categories_item">
-                    <img src="../header-footer/img/homepage/image 25 (3).png" alt="" class="img-fluid">
+                    <img src="{{('public/frontend/images/homepage/image 25 (3).png')}}" alt="" class="img-fluid">
                     <p class="h6">Cooking Utensils</p>
                 </div>
             </div>
             <div class="col-2">
                 <div class="categories_item">
-                    <img src="../header-footer/img/homepage/image 25 (4).png" alt="" class="img-fluid">
+                    <img src="{{('public/frontend/images/homepage/image 25 (4).png')}}" alt="" class="img-fluid">
                     <p class="h6">Bar Tools</p>
                 </div>
             </div>
             <div class="col-2">
                 <div class="categories_item">
-                    <img src="../header-footer/img/homepage/image 25 (5).png" alt="" class="img-fluid">
+                    <img src="{{('public/frontend/images/homepage/image 25 (5).png')}}" alt="" class="img-fluid">
                     <p class="h6">Bar Ingredients</p>
                 </div>
             </div>
@@ -212,7 +212,7 @@
                     <button class="banner_btn">Discuss now</button>
                 </div>
                 <div class="col-6">
-                    <img src="../header-footer/img/homepage/Rectangle 167.png" alt="" class="img-fluid">
+                    <img src="{{('public/frontend/images/homepage/Rectangle 167.png')}}" alt="" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -329,7 +329,7 @@
 				</div>
 				<div class="col-3 bocongthuong">
 					<div class="d-flex">
-						<img src="../header-footer/img/bocongthuong.png" alt="" class="w-100">
+						<img src="{{('public/frontend/images/bocongthuong.png')}}" alt="" class="w-100">
 					</div>
 				</div>
 			</div>

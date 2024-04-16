@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABOUT US</title>
-    <link rel="stylesheet" href="aboutus.css">
-    <link rel="stylesheet" href="../header-footer/css/bootstrap.css">
-    <link rel="stylesheet" href="../header-footer/css/all.min.css">
-    <link rel="stylesheet" href="../header-footer/css/style.css">
+    <link rel="stylesheet" href="{{('public/frontend/css/aboutus.css')}}">
+    <link rel="stylesheet" href="{{('public/frontend/css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{('public/frontend/css/all.min.css')}}">
+    <link rel="stylesheet" href="{{('public/frontend/css/style.css')}}">
 </head>
 <body>
     <!-- HEADER -->
     <div class="container nav_top">
         <div class="row">
             <div class="col-2 logo">
-                <img src="../header-footer/img/logo - temp.png" alt=""class="w-100">
+                <img src="{{('public/frontend/images/logo - temp.png')}}" alt=""class="w-100">
             </div>
             <div class="col-2"></div>
             <div class="col-4 search">
@@ -68,7 +68,7 @@
             <div class="col-12 infor">
                 <div class="row small_in4">
                     <div class="col-6 img_in4">
-                        <img src="../header-footer/img/About us/tải xuống (17).jfif" alt="" class="img_in4_1 w-100">
+                        <img src="{{('public/frontend/images/About us/tải xuống (17).jfif')}}" alt="" class="img_in4_1 w-100">
                     </div>
                     <div class="col-6 description_in4">
                         <h1>FROM OVEN TO AWESOME</h1>
@@ -162,7 +162,7 @@
 				</div>
 				<div class="col-3 bocongthuong">
 					<div class="d-flex">
-						<img src="../header-footer/img/bocongthuong.png" alt="" class="w-100">
+						<img src="{{('public/frontend/images/bocongthuong.png')}}" alt="" class="w-100">
 					</div>
 				</div>
 			</div>

@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../header-footer/css/all.min.css">
-    <link rel="stylesheet" href="../header-footer/css/bootstrap.css">
-    <link rel="stylesheet" href="../header-footer/css/style.css">
-    <link rel="stylesheet" href="errorpage.css">
+    <link rel="stylesheet" href="{{('public/frontend/css/all.min.cs')}}s">
+    <link rel="stylesheet" href="{{('public/frontend/css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{('public/frontend/css/style.css')}}">
+    <link rel="stylesheet" href="{{('public/frontend/css/errorpage.css')}}">
 </head>
 <body>
     <div class="container">
@@ -17,7 +17,7 @@
             <div class="col-4"></div>
             <div class="col-4"></div>
             <div class="col-4 error text-center">
-                <img src="C:\Users\LENOVO\Downloads\pngtree-error-404-under-construction-sign-3d-icon-website-banner-concept-png-image_7382633.png" class="img-fluid imageerror">
+                <img src="{{('')}}" class="img-fluid imageerror">
             </div>
             <div class="col-4"></div>
             <div class="col-4"></div>
