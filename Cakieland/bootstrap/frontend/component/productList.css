@@ -217,10 +217,20 @@ body, button, input{
     line-height: 18px;
 }
 .productList_image{
+    
     width: 100%;
     height: 238px;
 	border-radius: 10px;
+    
 }
+.btn_add {
+    position: absolute; /* Đặt vị trí tuyệt đối cho nút */
+    top: 194px;  /* Cách đáy container ảnh 10px */
+    left: 252px;   /* Cách mép phải container ảnh 10px */
+    font-size: 24px; /* Kích thước font của icon */
+    cursor: pointer; /* Con trỏ thành tay khi di chuột qua */
+    color:#FBC31C
+  }
 .pr-i3
 {
 	background-color: #fff;
@@ -229,7 +239,9 @@ body, button, input{
     width: 300px;
     height: 450px;
     box-shadow: 0px 4px 8px #888888;
+    position: relative;
 }
+
 
 .container_information {
     margin: 16px 6px 0px 6px;
@@ -237,6 +249,11 @@ body, button, input{
 .productList_price{
     margin-top: 18px;
 }
+
+.pr-i3:hover{
+    transform: scale(1.05); /* Sản phẩm phóng to 110% kích thước gốc */
+    transition: transform 0.3s ease-in-out; /* Hiệu ứng chuyển đổi mượt mà */
+  }
 /* END PRODUCT LIST */
 
 /* CSS PRODUCT LIST */
@@ -248,7 +265,7 @@ body, button, input{
 .pr-list-sidebar ul li a
 {
 	font-size: 16px;
-	color: #666;
+	/* color: #666; */
 	line-height: 40px;
 	border-bottom: 1px dashed #f3f3f3;
 	display: block;
@@ -288,3 +305,121 @@ body, button, input{
 .text-product{
 	color: #080808;
 }
+.getintouch {
+    background-image: url(../header-footer/img/Group\ 13943.png);
+    /* background-position: center; */
+    background-size: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .getintouch_info {
+    padding: 70px;
+    text-align: center;
+  }
+  
+  .getintouch_search {
+    width: 100%;
+    height: 43px;
+    color: #666666;
+    height: 45px;
+    border: none;
+    padding: 0;
+    background-color: #fdfdfd;
+    border-radius: 20px;
+  }
+  
+  .getintouch_search input {
+    color: #666666;
+    height: 45px;
+    border: none;
+    padding: 0;
+    background: none;
+  }
+  
+  .btn_submit {
+    /* background-color: #080808;
+    color: #FBC31C; */
+    background-color: #FBC31C;
+    color: #fdfdfd;
+    height: 38px;
+    padding: 0;
+    border-radius: 20px;
+    width: 100%;
+    border: none;
+    margin: 2px;
+  }
+  
+  .getintouch_search .col-4 {
+    padding-right: 5px;
+  }
+  
+  .getintouch_search {
+    margin-top: 10px;
+    border: 1px solid #666666;
+    border-radius: 22px;
+    height: 44px;
+  }
+.mainmenu a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    /* color: #666; */
+}
+.mainmenu li a{
+    color: #000;
+}
+.mainmenu li ul li a{
+    color: #666;
+}
+.mainmenu a:hover {
+    background-color: #C5C5C5;
+}
+.mainmenu li:hover .menucon
+{
+    display: block;
+    max-height: 200px;
+}
+.submenu a:hover {
+    background-color: #666;
+}
+.menucon {
+    overflow: hidden;
+    max-height: 0;
+    list-style: none;
+}
+.menucon li:hover {
+    display: block;
+    max-height: 200px;
+}
+.icon_arrow{
+    margin-right: 20px;
+}
+.menu_title{
+    padding-left: 35px;
+}
+.mainmenu{
+    cursor: pointer;
+}
+.pr-i3{
+    cursor: pointer;
+}
+.cartegory_page_number{
+    text-align: center;
+    letter-spacing: 10px;
+    color: #282828;
+    margin-top: 30px;
+}
+.mainmenu_title{
+    color: #000;
+}
+.menucon{
+    color: #666;
+}
+.icon_arrow{
+    padding-top: 20px;
+}
+.icon_add{
+    left: 100%;
+}
+
