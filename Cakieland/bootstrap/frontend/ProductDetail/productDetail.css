@@ -267,6 +267,10 @@ body, button, input{
     border-radius: 12px;
     color: #fdfdfd;
 }
+.btn-shopnow:hover{
+	background-color: #080808;
+	color: #FBC31C;
+}
 #pr-number
 {
     text-align: center;
@@ -288,12 +292,12 @@ body, button, input{
 	color: #666;
 	line-height: 26px;
 }
-/* .pr-property
+.pr-property
 {
 	font-size: 16px;
 	font-weight: bold;
 	color: #080808;
-} */
+}
 .pr-color li
 {
 	width: 45px;
@@ -310,7 +314,22 @@ body, button, input{
 }
 .pr-color li:nth-child(1)
 {
-	background-color: #666;
+	background-color: #f5bfe0;
+}
+.pr-color li:nth-child(2)
+{
+	background-color: #ada7a7;
+}
+.pr-color li:nth-child(3)
+{
+	background-color: #9bcde6;
+}
+.pr-color li:nth-child(4)
+{
+	background-color: #dcae8f;
+}
+.pr-color li:hover{
+	box-shadow: 5px 5px 5px #303130;
 }
 .star{
     padding-left: 0px;
@@ -436,3 +455,9 @@ body, button, input{
 		font-size: 15px;
 		line-height: 25px;
 	}
+.pr-color li
+{
+	width: 45px;
+	height: 45px;
+	margin: 0 5px 0 0;
+}
