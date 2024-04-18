@@ -146,23 +146,10 @@
     border-radius: 12px;
     margin-right: 55px;
 }
-.sub_banner1
-{
-	background-image: url("../header-footer/img/homepage/Untitled\ design.png");
-}
-.sub_banner2
-{
-	background-image: url("../header-footer/img/homepage/Untitled\ design.png");
-}
-.sub_banner3
-{
-	background-image: url("../header-footer/img/homepage/Untitled\ design.png");
-}
 
 /* --------------------- */
 
 .getintouch{
-    background-image: url(../header-footer/img/homepage/Mask\ Group.png);
     /* background-position: center; */
     background-size:100%;
     margin-top: 50px;

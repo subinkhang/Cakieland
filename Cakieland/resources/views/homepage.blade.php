@@ -228,21 +228,21 @@
         <p class="sub_banner_title text_h1">TOPIC OF MONTH</p>
 		<div class="row">
 			<div class="col-4">
-				<div class="sub_banner sub_banner1">
+				<div class="sub_banner" style="background-image: url('{{'public/frontend/images/homepage/Untitled_design.png'}}');">
 					<p>BAKING TIPS</p>
 					<h3>Make Baking Powder</h3>
 					<button class="btn-shopnow bg-xanh text-white">Discuss Now</button>
 				</div>
 			</div>
 			<div class="col-4">
-				<div class="sub_banner sub_banner2">
+				<div class="sub_banner"  style="background-image: url('{{'public/frontend/images/homepage/Untitled_design.png'}}');">
 					<p>COOKING TIPS</p>
 					<h3>Make Baking Powder</h3>
 					<button class="btn-shopnow bg-xanh text-white">Discuss Now</button>
 				</div>
 			</div>
 			<div class="col-4">
-				<div class="sub_banner sub_banner3"s>
+				<div class="sub_banner"  style="background-image: url('{{'public/frontend/images/homepage/Untitled_design.png'}}');">
 					<p>RECOMMEND TIPS</p>
 					<h3>Make Baking Powder</h3>
 					<button class="btn-shopnow bg-xanh text-white">Discuss Now</button>
@@ -251,7 +251,7 @@
 		</div>
 	</div>
 
-    <div class="container getintouch">
+    <div class="container getintouch"  style="background-image: url('{{'public/frontend/images/homepage/Mask\ Group.png'}}');">
         <div class="row">
             <div class="col-2"></div>
             <div class="col-8 getintouch_info">
